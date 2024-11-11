@@ -1,6 +1,6 @@
 {
-  "name":"FLASH-MD",
-  "description":"An easy and simple WhatsApp bot developed by France King",
+  "name":"GREEN-Goblin",
+  "description":"An easy and simple WhatsApp bot managed by Iammoods.ink",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/dfccbf12397757c321ac4.jpg",
   "repository":"https://github.com/franceking1/Flash-Md",
@@ -10,7 +10,7 @@
     "PREFIX":
     {
       "description":"choose your prefix of bot",
-      "value":".",
+      "value":".,@",
       "required":true
     },
     "AUTO_READ_STATUS":
@@ -28,14 +28,14 @@
      "PM_PERMIT" :
      {
       "description":"Other user can't use your bot in pm (type yes to activate or no to deactivate ; don't write in capital letter)",
-      "value":"no",
+      "value":"yes",
       "required":false
     }
     ,
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"FLASH-MD",
+      "value":"GREEN-Goblin",
       "required":false
 
     } ,
@@ -65,16 +65,16 @@
     "SESSION_ID":
     {
       "description":"put your session ID , make sure it starts with eyJub2I...",   
-      "value":"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiaUJPYi82V1BCRGFybXJDUHpTd1N0MDV2cFp5S1dhd1lXZXpjampPN3dVdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZ2UzcFJmSjM5NnNhS0hmanlSYW9tRnRtaEdKY0pNVkVHMzU5MDRoeTFoYz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ5UGcyMVVZaEF3TG9rbmc3R0ErL3MvWEdSRkZTTHpDT1J5YnZRM2FQVjJrPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJUTGVJb2twT0Z3cXRicjR4b0pBQkU5bVkvdXFjaFZ2VmhUbU9aODBIejFjPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IklPTmlSa3V4MVNrM1VLSTl0QkxLTmpuQjROMmwzUFhWV3FGQ1B1MTZ1VUU9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IitVOFd2ZWFrd0dPemFvdXZqR2pnc2d4WWJ6ajdQYmcxcTk2WlNtYWxhbGs9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicU4rR2RXR0NKN1h5d2pCaE9rZDZjK0NZNnhGRk5ocWRqUVdZcyttZHVuZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoickVLM0k5ZUhHUjlPZFBEdm5wY1FVa2pOb0RkQktYbXMwNFp2YkJMelRRST0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjNHbk9Yd0gwdm9wZWNSa0ZPT3Z1TUMzQkhuOGpzYkFBT2h4MVpHRk1ENVBmd3M5ZVFDRjYwaXhsK0VZT0xFWW0xVFlMbEtNelphU253Z3dlYW5BeUFBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTA0LCJhZHZTZWNyZXRLZXkiOiJqaWw1dnlYVW8vMkFuMWQ4SFRyQnl1RDRpVEk0U1ZLdUhpa1AxS2FCQTJrPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiIwa0hXM3RZMFRnNkYxYXFNS2NxTWxBIiwicGhvbmVJZCI6IjdhNDY5NGNhLTI5YTEtNDY0Yi1iZmRhLTcxNmZhNzYwYWQ5OCIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJVcllMVGs2WjBodjVWa29rVnloWjJDU0JtOGM9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ3VzTWNNM01FZFRYSVdUYy9qYm5hZmJXVERVPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IlQ0TTZTTkpGIiwibWUiOnsiaWQiOiIyNzgzODY4MjI4Mzo1QHMud2hhdHNhcHAubmV0IiwibmFtZSI6Ik1vb2Rzc2J5NTYzIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNPdVUxTWdCRU0raHU3RUdHQWNnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJUbnA1akFxdDVaVFhPUGdXSDBPKzBRTVVVVFpwVWZmNUFMenA0M2lCaW53PSIsImFjY291bnRTaWduYXR1cmUiOiJGQW0zYkwwWVRZc3dibWdJNzE3c2M4TmVlUmw5R2ZKUFNEc0dKQ1ZRZXM4ZGMvbFcrcElqY0VWYTUrdkxlWjNPU0pUYVl2Uk1LcitnYllWSi81YVRBUT09IiwiZGV2aWNlU2lnbmF0dXJlIjoiQ0t1NWRnOUM0UXFWcE11VVVVZWFEV3lXMjhza3VCZXVTODNQbGpKZ2FGMnpCYUtWWlgwVzVGREd0VTA1MS9RUVBtYUlHMndsRkVyc3ZFSFB6Nk04QVE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyNzgzODY4MjI4Mzo1QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlU1NmVZd0tyZVdVMXpqNEZoOUR2dEVERkZFMmFWSDMrUUM4NmVONGdZcDgifX1dLCJwbGF0Zm9ybSI6InNtYmEiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MTQzNDQxNTYsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBT00vIn0=",
+      "value":"FLASH-MD-WA-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNkI1K24yeHJkZ2VtaFZUTC9vWldzV0dua21JQ1JaSm5LelRYOEliRzBHVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTGZkeFNNR1czYXhvTHdUSWRPbElLN2U0YXJNaG52MVNBSC9YZkRTRzYxRT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJNUHN1OWRrTWZGS1IzOFJUZW51WnBYNmZCWlBBdGtZY1FPTkZPQTVHNjN3PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJqbzhSZDJvb3lHTmxsMWJQcE5OU1pKSmdVeElDSmFzbmJ3eFBGLzNkMTJrPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkFCZDYvZ3VQakltZ3RqQ0xUOGdycVVlNmZQT3YzSytCR0lMbzdSb0ZzbTQ9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InBadlZTWTlET3lURDg2QjRxUktIa05iN3JtVDE3UXBNRlFIZTM5cXM5d0k9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ0Z2aGdnUzlndWFWd2xPQ3N4MC9YRmJ5UUxPQ25CUmVScTJJQXV6dlNWbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoib1lPL0RDcFMyeUNFNVhPcTdXK295SStrU2xKaHFMdVJJNStuRFh6OTNTcz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im1sRDVlbFZnRzdneEtFSFJBY2tKWG5FTHdxb0paQ0VqY1ptc2JrTGNCUE5tRjc1ZjdBdGE2RmlqNXpHUU9MYzBGby9yb21LL0poUzhHN2FSakszakR3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTUwLCJhZHZTZWNyZXRLZXkiOiJWRktFRGxOalFvZHk3d1FtSFJ2TjBvUktQeXpaZFFicjI3OFVUbjhPTlY4PSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjI3ODM4NjgyMjgzQHMud2hhdHNhcHAubmV0IiwiZnJvbU1lIjp0cnVlLCJpZCI6IkQ3RUU2MEFGQjVBM0E4OEIxQjk2OENFNzAxQkIyQTVFIn0sIm1lc3NhZ2VUaW1lc3RhbXAiOjE3MzEzMTUxODB9XSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6InlQaWhRWTlNU2llUk5XZTRNU0hoOWciLCJwaG9uZUlkIjoiZjU0YzJiMGYtNDRmYy00N2Y4LWI0ZDctYzM5MTVkZWRiMDEyIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkFjN1JncGl0NnpDYi9kM0VJUUkxdnZsUklUMD0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPREVWaTRGOVlWbXBrWjZsQVBoeUV1aEhkSTA9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiWVAxUUNBN1MiLCJtZSI6eyJpZCI6IjI3ODM4NjgyMjgzOjEyQHMud2hhdHNhcHAubmV0In0sImFjY291bnQiOnsiZGV0YWlscyI6IkNNaTk0S01CRU5XTHg3a0dHQUlnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJSQlp5dEY5WDZoQWl1NStoMm1oR0hFbEhLQlhPcnZQajE5ZmVyMjNzd0hJPSIsImFjY291bnRTaWduYXR1cmUiOiJWK2JrQjd5VGxGR2pXQUN6UHJQNzlESU9sNFBDbHFEYU8wdmNTcXZoeFB0YmJ5Tlp0am1aYWxFbVF5RXRZRU5BNmhsSFdBeEVoWkNzVlVscUtjUFNDdz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiTFFZcTY1dGJpR0ozSklZTy9ycVBUOHlKYkR6U3Y4cHpuM3RNSmQyb3d6V2J0S29LbGZIT0txajFBRHlubzJ5STBrNURJWjR6T1pMZElVTGpsUU43REE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyNzgzODY4MjI4MzoxMkBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJVUVdjclJmVitvUUlydWZvZHBvUmh4SlJ5Z1Z6cTd6NDlmWDNxOXQ3TUJ5In19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzMxMzE1MTcwLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQU5tZyJ9",
       "required": true
 
     },
     "OWNER_NAME":
     {
     
-    "desc": "Your Name",
+    "desc": "Your.name",
     "required": false,
-    "value": "moodssby563"
+    "value": "Iammoods.ink"
   },
     "OWNER_NUMBER":
   {
@@ -97,7 +97,7 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
+    "value":"2",
     "required": false
   }  
   },
