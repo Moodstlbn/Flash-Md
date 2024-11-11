@@ -1,16 +1,16 @@
 {
-  "name": "FLASH-MD",
-  "description": "An easy and simple WhatsApp bot developed by France King",
+  "name": "GREEN-LOUNGE BY FLASH-MD",
+  "description": "An easy and simple WhatsApp bot managed by Iammoods.ink",
   "keywords": ["bot", "node", "baileys", "whatsapp"],
   "logo": "https://files.catbox.moe/nqgz89.jpg",
-  "repository": "https://github.com/franceking1/Flash-Md",
+  "repository": "https://github.com/Moodstlbn/Flash-Md",
   "success_url": "/",
   "stack": "container",
 
   "env": {
     "PREFIX": {
       "description": "Set the prefix for bot commands. You can use multiple prefixes by separating them with commas. Example: '.', '#', '!'",
-      "value": ".",
+      "value": ".,@",
       "required": false
     },
     "AUTO_READ_MESSAGES": {
@@ -35,7 +35,7 @@
     },
     "PM_PERMIT": {
       "description": "Restrict the bot's use in private messages. Type 'on' to allow or 'no' to block usage in private messages.",
-      "value": "off",
+      "value": "on",
       "required": false
     },
     "AUTO_REACTION": {
@@ -50,7 +50,7 @@
     },
     "TIME_ZONE": {
       "description": "Specify your country's time zone (e.g., 'Africa/Nairobi'). This ensures that bot activities follow your local time.",
-      "value": "Africa/Nairobi",
+      "value": "Africa/South Africa",
       "required": false
     },
     "ANTICALL": {
@@ -73,17 +73,17 @@
     },
     "SESSION_ID": {
       "description": "Place your unique FLASH MD session ID here. This is required for the bot to function.",
-      "value": "",
+      "value": "FLASH-MD-WA-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNkI1K24yeHJkZ2VtaFZUTC9vWldzV0dua21JQ1JaSm5LelRYOEliRzBHVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTGZkeFNNR1czYXhvTHdUSWRPbElLN2U0YXJNaG52MVNBSC9YZkRTRzYxRT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJNUHN1OWRrTWZGS1IzOFJUZW51WnBYNmZCWlBBdGtZY1FPTkZPQTVHNjN3PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJqbzhSZDJvb3lHTmxsMWJQcE5OU1pKSmdVeElDSmFzbmJ3eFBGLzNkMTJrPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkFCZDYvZ3VQakltZ3RqQ0xUOGdycVVlNmZQT3YzSytCR0lMbzdSb0ZzbTQ9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InBadlZTWTlET3lURDg2QjRxUktIa05iN3JtVDE3UXBNRlFIZTM5cXM5d0k9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ0Z2aGdnUzlndWFWd2xPQ3N4MC9YRmJ5UUxPQ25CUmVScTJJQXV6dlNWbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoib1lPL0RDcFMyeUNFNVhPcTdXK295SStrU2xKaHFMdVJJNStuRFh6OTNTcz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im1sRDVlbFZnRzdneEtFSFJBY2tKWG5FTHdxb0paQ0VqY1ptc2JrTGNCUE5tRjc1ZjdBdGE2RmlqNXpHUU9MYzBGby9yb21LL0poUzhHN2FSakszakR3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTUwLCJhZHZTZWNyZXRLZXkiOiJWRktFRGxOalFvZHk3d1FtSFJ2TjBvUktQeXpaZFFicjI3OFVUbjhPTlY4PSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjI3ODM4NjgyMjgzQHMud2hhdHNhcHAubmV0IiwiZnJvbU1lIjp0cnVlLCJpZCI6IkQ3RUU2MEFGQjVBM0E4OEIxQjk2OENFNzAxQkIyQTVFIn0sIm1lc3NhZ2VUaW1lc3RhbXAiOjE3MzEzMTUxODB9XSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6InlQaWhRWTlNU2llUk5XZTRNU0hoOWciLCJwaG9uZUlkIjoiZjU0YzJiMGYtNDRmYy00N2Y4LWI0ZDctYzM5MTVkZWRiMDEyIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkFjN1JncGl0NnpDYi9kM0VJUUkxdnZsUklUMD0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPREVWaTRGOVlWbXBrWjZsQVBoeUV1aEhkSTA9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiWVAxUUNBN1MiLCJtZSI6eyJpZCI6IjI3ODM4NjgyMjgzOjEyQHMud2hhdHNhcHAubmV0In0sImFjY291bnQiOnsiZGV0YWlscyI6IkNNaTk0S01CRU5XTHg3a0dHQUlnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJSQlp5dEY5WDZoQWl1NStoMm1oR0hFbEhLQlhPcnZQajE5ZmVyMjNzd0hJPSIsImFjY291bnRTaWduYXR1cmUiOiJWK2JrQjd5VGxGR2pXQUN6UHJQNzlESU9sNFBDbHFEYU8wdmNTcXZoeFB0YmJ5Tlp0am1aYWxFbVF5RXRZRU5BNmhsSFdBeEVoWkNzVlVscUtjUFNDdz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiTFFZcTY1dGJpR0ozSklZTy9ycVBUOHlKYkR6U3Y4cHpuM3RNSmQyb3d6V2J0S29LbGZIT0txajFBRHlubzJ5STBrNURJWjR6T1pMZElVTGpsUU43REE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyNzgzODY4MjI4MzoxMkBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJVUVdjclJmVitvUUlydWZvZHBvUmh4SlJ5Z1Z6cTd6NDlmWDNxOXQ3TUJ5In19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzMxMzE1MTcwLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQU5tZyJ9",
       "required": true
     },
     "OWNER_NAME": {
       "description": "Enter the name of the bot owner. This name will be displayed when required.",
-      "value": "France King",
+      "value": "Iammoods.ink",
       "required": false
     },
     "OWNER_NUMBER": {
       "description": "Enter your phone number without the '+' sign. Use your country code (e.g., '254' for Kenya).",
-      "value": "254751284190",
+      "value": "27838682283",
       "required": false
     },
     "WARN_COUNT": {
@@ -103,7 +103,7 @@
     },
     "PRESENCE": {
       "description": "Choose how you want to appear to others: 'online' (always online), 'typing' (currently typing), 'recording' (currently recording audio), or leave blank for real-time presence.",
-      "value": "",
+      "value": "typing",
       "required": false
     }
   },
